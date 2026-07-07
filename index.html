@@ -1,81 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moeez's First Project</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styling.css">
 </head>
 
 <body>
+    <header>
+        <section>
+            <h1>Welcome to My First Website</h1>
+            <nav> <a href="about.html">About</a> <br> <a href="contact.html">Contact</a> <br> </nav>
+    </header>
 
-    <h1>Welcome to My First Website</h1>
+    <main>
+        <div class="wholedivbox">
 
-    <p>Hello! My name is Abdul Moeez. I am learning HTML and this is my very first web page.</p>
+    <div class="aboutme">
+        <h2>About Me</h2>
 
-    <h2>About Me</h2>
+        <p>
+         Hello! My name is Abdul Moeez. I am 14 years old and have recently started learning to code. Currently, I am learning web development. So far, I have learned HTML, and next I will learn CSS for styling and JavaScript for adding interactivity to websites.
 
-    <img src="my picture.jpeg" alt="this is me abdul moeez" width="200">
+After mastering web development, I plan to start learning Python, which is the programming language I have always wanted to learn. I believe Python will be the most valuable language for my future career. I chose to begin with web development because it is one of the easiest ways to get started with programming. It helps me build a strong foundation, and I hope that after learning HTML, CSS, and JavaScript, programming concepts will make more sense, making it easier for me to learn Python.
+        </p>
+    </div>
 
-    <br><br>
+    <div class="pictures">
 
-    <a href="https://github.com/
-abdulmoeez4439-jpg">Visit My GitHub</a>
+        <img src="moeez.jpeg" alt="Abdul Moeez">
 
-    <h5>My Hobbies</h5>
+        <h2 id="textbelowimage">THIS IS ME</h2>
 
-    <p>I enjoy programming, learning about AI, reading technology articles, and playing games.</p>
+    </div>
 
-    <h3>My Skills</h3>
+</div> <br><br>
 
-    <p>
-        • HTML <br>
-        • Basic CSS <br>
-        • Learning JavaScript
-    </p>
-
-    <h6>Thank you for visiting my website!</h6>
-        <caption><b>My Weekly Study Schedule</b></caption>
-<table> 
-        <thead>
-            <tr>
-                <th>Day</th>
-                <th>Subject</th>
-                <th>Hours</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-
-        <tbody>
-
-            <tr>
-                <td>Monday</td>
-                <td>HTML</td>
-                <td>2</td>
-                <td>Completed</td>
-            </tr>
-
-            <tr>
-                <td>Tuesday</td>
-                <td>CSS</td>
-                <td>2</td>
-                <td>In Progress</td>
-            </tr>
-
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td colspan="4">Keep learning every day!</td>
-            </tr>
-        </tfoot>
-
-    </table>
-
-    <p>
-        This website was created using only HTML. Soon I will add CSS to make it beautiful and JavaScript to make it interactive.
-    </p>
-
+        <h3>My Hobbies</h3>
+        <p>I enjoy programming, learning about AI, reading technology articles, and playing games.</p>
+        <h3>My Skills</h3>
+        <p> • HTML <br> • Basic CSS <br> • Learning JavaScript </p>
+        <h4>Thank you for visiting my website!</h4>
+        <h3>LANGUAGES</h3>
+        <oL type="a">
+            <lI>HTML</lI>
+            <lI>CSS</lI>
+            <li>Javascript</li>
+        </ol>
+        <table border="1"> <br> <br>
+            <caption><b>My Weekly Study Schedule</b></caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Subject</th>
+                    <th>Hours</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="monday">Monday</td>
+                    <td>HTML </td>
+                    <td>2</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>CSS</td>
+                    <td>2</td>
+                    <td>In Progress</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Keep learning every day!</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p> This website was created using only HTML(BY MYSELF) AND CSS{USING CHATGPT}. Soon I will add JavaScript to
+            make it interactive. </p>
+    </main>
+    <form> <label>email</label> <br> <input type="email" placeholder="enter your email" required> <br> <br>
+        <label>password</label> <br> <input type="password" placeholder="enter your password" required> <br> <br> <label
+            for="birthdate">birth date</label> <br> <input type="date" id="birthdate"><br> </form> <label
+        for="comments"> comments:</label><br> <textarea id="comments" rows="6" cols="40"></textarea> <br>
+    <footer>
+        <h3> <b> about me</b></h3> <a href="https://github.com/ abdulmoeez4439-jpg">Visit My GitHub</a>
+    </footer>
 </body>
+
 </html>
