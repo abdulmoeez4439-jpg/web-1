@@ -23,6 +23,10 @@ nav a {
     margin-right: 25px;
     main { background-color:#D1D5DB}
 }
+
+
+
+
 .wholedivbox{
     display: flex;
     justify-content: space-between;
@@ -82,4 +86,176 @@ nav a {
     color:#061338;
     font-size:40px;
     text-align:center;
+}
+
+
+
+
+
+/* ================= FOOTER ================= */
+footer{
+    background:#061338;
+    padding: 3px 20px;
+    border-top-left-radius:30px;
+    position:relative;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:2fr 1fr 1.4fr;
+    gap:65px;
+    align-items:start;
+}
+
+/* LEFT */
+
+.footer-left{
+    text-align:left;
+    margin-top:42px;
+}
+
+
+.footer-left h1 {
+    color: #60A5FA;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 0 0;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.info{
+    margin-bottom:8px;
+}
+
+.info h5{
+    color:#8B98B8;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:2px;
+}
+
+.info p{
+    color:white;
+    font-size:14px;
+    margin:0;
+}
+
+/* MIDDLE */
+.footer-middle h5{
+    color:#8B98B8;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:8px;
+}
+
+.footer-middle a{
+    display:block;
+    width:180px;
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    margin-bottom:6px;
+    transition:.3s;
+}
+
+/* underline below every name */
+.footer-middle a::after{
+    content:"________________";
+    display:block;
+    color:#6B7280;
+    margin-top:1px;
+    font-size:10px;
+}
+
+.footer-middle a:hover{
+    color:#60A5FA;
+    padding-left:8px;
+}
+
+
+/* RIGHT */
+
+
+footer-right{
+    text-align:right;
+}
+.designer{
+
+    color:white;
+
+    font-size:24px;
+
+    line-height:1.5;
+
+    margin-top:0;
+
+    margin-bottom:30px;
+}
+
+.designer span{
+
+    color:#60A5FA;
+
+    font-weight:bold;
+
+    font-size:27px;
+    font-family:  'Open Sans', sans-serif;
+}
+
+
+.contactme{
+    color:#8B98B8;
+    font-size:12px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:2px;
+    text-align:right;
+
+}
+.number{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+    margin: 0 0px 6px 0;
+    bottom: 0px;
+    transition:.3s;
+    text-align:right;
+}
+
+
+
+/* BOTTOM ICONS */
+
+.social-icons{
+
+    position:absolute;
+
+    left:30px;
+
+    bottom:0px;
+
+    display:flex;
+
+    flex-direction:row;
+
+    gap: 70px;
+}
+
+.social-icons a{
+
+    color:white;
+
+    font-size:24px;
+
+    transition:.3s;
+}
+
+.social-icons a:hover{
+
+    color:#60A5FA;
+
+    transform:scale(1.15);
 }
